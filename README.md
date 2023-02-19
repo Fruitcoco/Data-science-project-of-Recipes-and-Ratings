@@ -16,6 +16,18 @@ Data analysis on the Recipes and Ratings.
 
 #### Bivariate Analysis
 
+Scatter plot between rating and calories
+The scatter plot shows how the amount of calories are distributed across the ratings 
+
+print(data.groupby('rating')['calories'].agg(['mean','count']).head().to_markdown(index=False))
+
+
+
+
+
+
+
+
 
 #### Interesting Aggregates
 
