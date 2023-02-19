@@ -1,9 +1,41 @@
 # Data-science-project-of-Recipes-and-Ratings
 Data analysis on the Recipes and Ratings. 
 
+### Introduction 
 
-Hello world
-Hello world
-Hello world
 
-please add to the github
+
+
+### Cleaning and EDA
+#### Data Cleaning
+
+
+
+#### Univariate Analysis
+
+
+#### Bivariate Analysis
+
+
+#### Interesting Aggregates
+
+
+
+
+
+
+
+
+
+
+### Assessment of Missingness
+#### NMAR Analysis
+
+
+
+#### Missingness Dependency
+
+
+### Hypothesis Testing
+
+#### Hypothesis Testing
