@@ -38,7 +38,7 @@ The other higher average rating is categorized as ‘excellent.’
 
 This new column helps us organize the continuous average rating to different discrete level. This helps us better analyze our overall questions and make the data more readable. We also dropped the columns for ‘tags’,’steps’,and’ingredients’ because they are not very related to our current exploring interest or question.
 
-Below is the first three rows of our cleaned data.:
+Below is the first three rows of our cleaned data:
 
 |    | name                                 |     id |   minutes |   contributor_id | submitted   | nutrition                                    |   n_steps | description                                                                                                                                                                                                                                                                                                                                                                       |   n_ingredients |   average_rating | rating_comment   |   calories | rating_missing   |
 |---:|:-------------------------------------|-------:|----------:|-----------------:|:------------|:---------------------------------------------|----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------:|-----------------:|:-----------------|-----------:|:-----------------|
@@ -144,9 +144,9 @@ We picked sample average of calories as our test statistics and significance lev
 
 Our choice of null hypothesis is a good choice since it is a probability model that we can simulate under. Our alternative hypothesis works well as a different viewpoint on how the recipe and rating data were generated compared with null hypothesis. Sample average is a reasonable choice of test statistics since calories is numerical. 0.05 is common cutoff for hypothesis testing and provides us significant level of confidence to reject the null hypothesis.
 
-We also embeded the empirical distribution of sample mean of calories with “bad” rating comment
+We also embeded the empirical distribution of sample mean of calories with “bad” rating comment.
 
-We also embeded the empirical distribution of sample mean of calories
+
 
 <iframe src="assets/hypothesis_testing.html" width=800 height=600 frameBorder=0></iframe>
 
